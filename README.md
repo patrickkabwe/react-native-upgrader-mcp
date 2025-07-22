@@ -45,17 +45,15 @@ This MCP server can be integrated with various AI assistants and development too
         ```json
         {
             "mcpServers": {
-                "react-native-mcp": {
+                "rn-mcp": {
                     "command": "node",
-                    "args": ["y", "react-native-mcp"]
+                    "args": ["-y", "rn-mcp"]
                 }
             }
         }
         ```
 
 3. **Restart Cursor**: Restart the application to ensure the MCP server is loaded
-
-**Note**: Replace `/path/to/your/rn-app-upgrader` with the actual absolute path to your project directory.
 
 ### GitHub Copilot
 
@@ -77,9 +75,9 @@ This MCP server can be integrated with various AI assistants and development too
     ```json
     {
         "mcp.servers": {
-            "react-native-mcp": {
+            "rn-mcp": {
                 "command": "npx",
-                "args": ["react-native-mcp"]
+                "args": ["-y", "rn-mcp"]
             }
         }
     }
@@ -93,9 +91,9 @@ For any MCP-compatible client, you'll typically need:
 
 ```json
 {
-    "name": "react-native-mcp",
+    "name": "rn-mcp",
     "command": "npx",
-    "args": ["react-native-mcp"]
+    "args": ["-y", "rn-mcp"]
 }
 ```
 
