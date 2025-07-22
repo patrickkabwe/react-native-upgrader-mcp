@@ -1,0 +1,36 @@
+{
+    "name": "react-native-mcp",
+    "version": "0.0.1",
+    "description": "React Native MCP Server any thing react native related",
+    "module": "lib/index.js",
+    "type": "module",
+    "author": "Patrick Kabwe",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/patrickkabwe/react-native-mcp"
+    },
+    "keywords": [
+        "modelcontextprotocol",
+        "mcp",
+        "react-native",
+        "react-native-mcp"
+    ],
+    "bin": {
+        "react-native-mcp": "./lib/index.js"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.16.0",
+        "tsup": "^8.5.0"
+    }
+}
