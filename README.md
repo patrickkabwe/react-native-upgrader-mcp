@@ -39,10 +39,7 @@ A Model Context Protocol (MCP) server that streamlines React Native project upgr
         "mcp.servers": {
             "react-native-upgrader-mcp": {
                 "command": "npx",
-                "args": ["-y", "react-native-upgrader-mcp"],
-                "env": {
-                    "CURSOR_WORKSPACE_ROOT": "${workspaceRoot}"
-                }
+                "args": ["-y", "react-native-upgrader-mcp"]
             }
         }
     }
@@ -50,9 +47,9 @@ A Model Context Protocol (MCP) server that streamlines React Native project upgr
 
 ## 🛠️ Tools
 
--   `get-react-native-stable-version` - Get latest stable version
+-   `get-stable-version` - Get latest stable version
 -   `get-react-native-diff` - Generate upgrade diff between versions
--   `get-react-native-release-candidate-version` - Get RC versions
+-   `get-rc-version` - Get RC versions
 
 ## 🛠️ Development
 
