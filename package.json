@@ -1,8 +1,10 @@
 {
-    "name": "rn-mcp",
+    "name": "react-native-upgrader-mcp",
     "version": "0.0.3",
-    "description": "React Native MCP Server any thing react native related",
+    "description": "A Model Context Protocol (MCP) server that streamlines React Native project upgrades. It provides developers with automated tools to seamlessly upgrade React Native CLI projects to any desired version or the latest stable release. The MCP Server uses `rn-diff-purge` to generate the diff.",
     "module": "lib/index.js",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "type": "module",
     "author": "Patrick Kabwe",
     "license": "MIT",
@@ -14,16 +16,18 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/patrickkabwe/rn-mcp"
+        "url": "https://github.com/patrickkabwe/react-native-upgrader-mcp"
     },
     "keywords": [
         "modelcontextprotocol",
         "mcp",
         "react-native",
-        "react-native-mcp"
+        "react-native-mcp",
+        "react-native-upgrader-mcp",
+        "react-native-upgrader"
     ],
     "bin": {
-        "rn-mcp": "./lib/index.js"
+        "react-native-upgrader-mcp": "./lib/index.js"
     },
     "devDependencies": {
         "@types/bun": "latest"
