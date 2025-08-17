@@ -47,9 +47,9 @@ A Model Context Protocol (MCP) server that streamlines React Native project upgr
 
 ## 🛠️ Tools
 
--   `get-react-native-stable-version` - Get latest stable version
+-   `get-stable-version` - Get latest stable version
 -   `get-react-native-diff` - Generate upgrade diff between versions
--   `get-react-native-release-candidate-version` - Get RC versions
+-   `get-rc-version` - Get RC versions
 
 ## 🛠️ Development
 
