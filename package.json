@@ -1,6 +1,6 @@
 {
     "name": "react-native-upgrader-mcp",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "description": "A Model Context Protocol (MCP) server that streamlines React Native project upgrades. It provides developers with automated tools to seamlessly upgrade React Native CLI projects to any desired version or the latest stable release. The MCP Server uses `rn-diff-purge` to generate the diff.",
     "module": "lib/index.js",
     "main": "lib/index.js",
