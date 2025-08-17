@@ -39,10 +39,7 @@ A Model Context Protocol (MCP) server that streamlines React Native project upgr
         "mcp.servers": {
             "react-native-upgrader-mcp": {
                 "command": "npx",
-                "args": ["-y", "react-native-upgrader-mcp"],
-                "env": {
-                    "CURSOR_WORKSPACE_ROOT": "${workspaceRoot}"
-                }
+                "args": ["-y", "react-native-upgrader-mcp"]
             }
         }
     }
