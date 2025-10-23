@@ -1,5 +1,6 @@
-# React Native Upgrader MCP Server
+<img width="1532" height="324" alt="react-native-upgrader-mcp-cover" src="https://github.com/user-attachments/assets/dc1b4694-6943-436a-b288-ed54da5d5dec" />
 
+# react-native-upgrader-mcp
 A Model Context Protocol (MCP) server that streamlines React Native project upgrades. It provides developers with automated tools to seamlessly upgrade React Native CLI projects to any desired version or the latest stable release. The MCP Server uses `rn-diff-purge` to generate the diff.
 
 ## 🚀 Features
